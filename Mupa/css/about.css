@@ -1,0 +1,111 @@
+@import url();
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+.container{
+    min-height: 100vh;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    color: white;
+
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom:20px;
+}
+
+input[type = 'submit']{
+    margin: auto;
+    width:20%;
+}
+
+.nav-special{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    position:relative;
+    box-shadow: 1px 2px 3px rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.nav-special ul{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    align-items: center;
+   
+}
+
+.nav-special ul a{
+    color:bisque;
+}
+
+.nav-special ul a:hover{
+    color:red;
+    text-shadow:1px 2px 3px black;
+}
+
+section{
+    min-height: 300px;
+    width: 50%;
+    margin-bottom:30px;
+    box-shadow: 1px 1px 2px  grey;
+}
+
+section:first-child{
+    padding:50px;
+    background-color: blanchedalmond;
+}
+.mupa{
+    height: 650px;
+    width:400px;
+    margin-bottom: -5px;
+}
+
+section{
+    position:relative;
+}
+
+.dev_desc{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+}
+
+td{
+    padding:20px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+
+table{
+    padding-top:50px;
+}
